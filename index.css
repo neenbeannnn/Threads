@@ -1,0 +1,241 @@
+*{
+  font-family: "Courier New", Courier, monospace;
+}
+.html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+h1{
+  color: black;
+  width: 100%;
+  font-size: 75px;
+  line-height: 30px;
+  position: static;
+  cursor: default;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.menu:link{
+  color: black;
+  text-decoration: none;
+}
+
+.menu:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+span{
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: default;
+  position: static;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#bannerimage{
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  z-index: 3;
+}
+
+#banner{
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+}
+
+#main{
+  width: 50%;
+  height: 1000px;
+  background: rgba(186, 236, 229, 0.5);
+  position: relative;
+  z-index: 4;
+  margin-top: 600px;
+}
+
+#main1{
+  width: 50%;
+  height: 1000px;
+  background: rgba(186, 236, 229, 0.5);
+  position: relative;
+  z-index: 4;
+  margin-top: -20px;
+}
+
+#extra{
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#list{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    float: left;
+    margin-top: 300px;
+    margin-left: 15px;
+}
+
+span3{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+
+#borderleft{
+  width: 10px;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+  margin-left: 0;
+  float: left;
+}
+
+#borderright{
+  width: 10px;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+  margin-left: 100%;
+  margin-top: -1000px;
+  float: right;
+}
+
+span1{
+  width: 10px;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+  margin-left: 0;
+  float: left;
+}
+
+span2{
+  width: 10px;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+  margin-left: 100%;
+  margin-top: -1000px;
+  float: right;
+}
+
+#pagetitle{
+  height: 30px;
+  width: 20%;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  margin-top: 20px;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+
+#etsyimage{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+/*Shop Page 1*/
+
+#products{
+  padding-top: 30px;
+}
+
+.product{
+  height: 250px;
+  width: 300px;
+  border: 4px solid black;
+  border-radius: 10px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.productbutton{
+  height: 25px;
+  width: 200px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.productlink{
+  font-size: 18px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.productlink:link{
+  color: white;
+  text-decoration: none;
+}
+
+.productlink:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+/*Content Start here: About Page*/
+
+#paragraph{
+  color: black;
+  font-family: 16px;
+  height: 500px;
+  width: 75%;
+  border: 4px solid black;
+  text-align: left;
+}
+
+.aboutpics{
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+  border: 4px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
